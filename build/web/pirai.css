@@ -1,0 +1,128 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5 Nov, 2019, 10:14:21 PM
+    Author     : kalingaraj
+*/
+
+
+body{
+   background-image:url("back.jpg");
+   background-position:center;
+   opacity:1;
+	background-size:cover;
+	font-family:serif;
+}
+.back{
+	padding:20px;
+	height:20px;
+	background-color:red;
+	border-style:solid;
+	border-width:5px;
+}
+.loginbox{
+	border-style:solid;
+	border-width:10px;
+	border-color:black;
+	transform-style:preserve-3d;
+  width:320px;
+  border-radius:40px;
+  height:460px;
+  color:white;
+  top:55%;
+  left:50%;
+  bottom:50%;
+  right:50%;
+  position:absolute;
+background-image: linear-gradient(319deg, #7fd82b 0%, #ef4063 37%, #e557c6 100%);
+  transform: translate(-50%,-50%);
+  box-sizing:border-box;
+}
+.avatar{
+  width:90px;
+  height:50px;
+  padding:10px;
+  border-radius:30%;
+  position:absolute;
+  left:calc(50% -50px);
+  margin-top:-25px;
+}
+h1{
+  text-align:center;
+  background-color: #ff1493;
+background-image: linear-gradient(319deg, #ff1493 0%, #0000ff 37%, #ff8c00 100%);
+  border-radius:20%;
+  width:40%;
+  margin-left:90px;
+  padding:10 0 10px;
+  color:black;
+  font-family:serif;
+  font-size:30px;
+}
+.loginbox input{
+  padding:10px 0 10px;
+  width:70px;
+
+}
+.loginbox input[type="text"], input[type="password"] ,input[type="email"],input[type="number"]
+{
+  border:none;
+  border-bottom:8px solid blue;
+  outline:4px;
+  background:white;
+  border-radius:90px;
+  text-align:center;
+  margin-left:30px;
+  width:250px;
+  height:40px;
+}
+.loginbox input[type="submit"]
+{
+  cursor:pointer;
+  background:green;
+  color:red;
+  font-weight:bold;
+  font-size:15px;
+  font-family:Courier;
+  margin:4px,2px;
+  
+}
+p{
+margin-left:20px;
+ font-size:25px;
+font-family:Comic Sans MS ;
+color: black;
+
+}
+
+.container {
+  position: relative;
+  width: 150%;
+  margin-top:-40px;
+}
+.boxs{
+	left:90%;
+}
+
+
+.signin{
+  padding-bottom:1px;
+  border-radius:20px;
+  color:white;
+  top:50%;
+  left:30%;
+  bottom:50%;
+  right:50%;
+  position:absolute;
+background-image: linear-gradient(319deg, #7fd82b 0%, #ef4063 37%, #e557c6 100%);
+  transform: translate(-50%,-50%);
+  box-sizing:border-box;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+
+
